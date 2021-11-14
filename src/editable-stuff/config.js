@@ -36,7 +36,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/IMG_7569.JPG"),
-  imageSize: 375,
+  imageSize: 250,
   message:
     "동양미래대학교 컴퓨터소프트웨어공학과를 졸업한 전하늘입니다. Python과 Java를 주로 사용합니다. MySQL과 MongoDB를 경험해보았습니다. 여의도에 위치한 아임클라우드 빅데이터사업부 인턴경험이 있습니다. 2020년 한국전자전 학교 대표 동아리 출품경험이 있습니다. ",
   resume: require("../editable-stuff/ghj2256.pdf"),
