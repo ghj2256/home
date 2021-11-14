@@ -6,30 +6,14 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Jeon",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Haneul",
+  message: " 세상을 바꾸는 개발자를 꿈꿉니다! ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://github.com/ghj2256",
     },
   ],
 };
@@ -51,11 +35,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/IMG_7569.JPG"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "동양미래대학교 컴퓨터소프트웨어공학과를 졸업한 전하늘입니다. Python과 Java를 주로 사용합니다. MySQL과 MongoDB를 경험해보았습니다. 여의도에 위치한 아임클라우드 빅데이터사업부 인턴경험이 있습니다. 2020년 한국전자전 학교 대표 동아리 출품경험이 있습니다. ",
+  resume: require("../editable-stuff/ghj2256.pdf"),
 };
 
 // PROJECTS SECTION
@@ -66,8 +50,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "ghj2256", //i.e."johnDoe12Gh"
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -100,14 +84,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Python", value: 65 },
+    { name: "SQL", value: 55 },
+    { name: "Data Structures", value: 55 },
+    { name: "Java", value: 60 },
+    { name: "JavaScript", value: 45 },
+    { name: "React", value: 45 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C/C++", value: 55 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +110,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "연락은 아래의 이메일로 부탁드립니다.",
+  email: "ghj2256@gmail.com",
 };
 
 const experiences = {
